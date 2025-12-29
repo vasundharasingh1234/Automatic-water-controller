@@ -1,0 +1,74 @@
+# Automatic Water Level Controller
+
+## 📌 Project Description
+The Automatic Water Level Controller is a hardware-based project designed to automatically control the water pump based on the water level in the tank.  
+It helps in preventing water overflow, saving electricity, and reducing manual effort.
+
+This project is suitable for homes, apartments, and small industrial applications.
+
+---
+
+## ❓ Problem Statement
+In many households, water pumps are operated manually, which often leads to water overflow and wastage.  
+This project solves the problem by automatically switching the motor ON and OFF depending on the water level.
+
+---
+
+## ✨ Features
+- Automatically turns ON the motor when water level is low  
+- Automatically turns OFF the motor when the tank is full  
+- Prevents water overflow  
+- Saves water and electricity  
+- Simple, low-cost, and reliable system  
+
+---
+
+## 🛠 Components Used
+- Water Level Sensors  
+- Arduino UNO (Microcontroller)  
+- Relay Module  
+- DC Water Pump / Motor  
+- Power Supply  
+- Connecting Wires  
+
+---
+
+## ⚙️ Working Principle
+Water level sensors are placed at different levels inside the water tank.  
+These sensors continuously monitor the water level and send signals to the microcontroller.
+
+- When the water level goes below the minimum level, the microcontroller activates the relay and turns ON the motor.
+- When the water reaches the maximum level, the motor is automatically turned OFF.
+
+This process works continuously without any manual intervention.
+
+---
+
+## 🔌 Circuit Diagram
+The circuit diagram of the Automatic Water Level Controller is provided in this repository for reference.
+
+---
+
+## 🚀 Applications
+- Residential water tanks  
+- Apartments and buildings  
+- Small industries  
+- Water management systems  
+
+---
+
+## 🔮 Future Improvements
+- Adding an LCD display to show water level  
+- IoT-based monitoring using a mobile application  
+- Buzzer or LED indication for tank status  
+
+---
+
+## 👩‍💻 Author
+**Vasundhara Singh**  
+B.Tech ECE Final Year Student  
+
+---
+
+## 🎯 Fun Fact
+💡 This project helps reduce daily water wastage caused by manual pump operation and promotes smart water management.
